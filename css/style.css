@@ -17,3 +17,13 @@
 hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+
+header {
+  /*background:linear-gradient(0deg, rgba(255,255,255,1)  0%, rgba(198,220,236,0.5) 94%, rgba(198,220,236,1) 100%);*/
+  height: 100vh; width: 100vw
+}
+
+.op-drop-shadow {
+  box-shadow: 0px 0px 30px #838383;
+}
