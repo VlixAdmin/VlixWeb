@@ -89,16 +89,31 @@
         align-items: center;
         padding: 10px;
         margin-bottom: 2rem;
-        background: #eee;
+        background: #fffce5;
         border: 1px solid #ccc;
         border-radius: 5px;
         border-radius: 20px;
     }
 
+
+    section .quote:nth-child(odd)
+    {
+        background: #fffee5;
+    }
     .quote span {
         font-size: 1.25rem;
         font-style: italic;
         padding: 10px;
+    }
+
+    .blink {
+        animation: blinker 1s infinite;
+    }
+
+    @keyframes blinker {
+        from { opacity: 1.0; }
+        50% { opacity: 0; }
+        to { opacity: 1.0; }
     }
 </style>
 
@@ -157,6 +172,12 @@
         </tr>
         </tbody>
     </table>
+
+    <h3 class="blink">
+        <i class="fas fa-arrow-down"></i>
+        Details
+        <i class="fas fa-arrow-down"></i>
+    </h3>
 </section>
 
 <section class="page mx-lg-auto mx-2">
