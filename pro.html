@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -13,9 +12,6 @@
 </head>
 <body>
 <style>
-    .text-primary {
-        color: #555555 !important;
-    }
     .an1 {
         height: 24px;
         width: 24px;
@@ -65,38 +61,83 @@
     .text-pro {
         color:#9f8700
     }
-    .border-top {
-        border-top: 2px solid #999 !important;
+    .page {
+        min-height: 30vh;
+        border-bottom: 2px solid #ddd !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: 1.1;
+        color: #555555 !important;
+        padding: 3rem 0 3rem 0;
+        max-width: 800px;
+    }
+
+    h1,h2 {
+        font-weight: bold !important;
+        font-size:calc(1.375rem + 1.5vw);
+    }
+    p{
+        max-width: 350px;
     }
 </style>
 
-<section class="container d-flex flex-column justify-content-center align-items-center text-center">
-    <h1 class="display-1 text-primary mt-1" style="font-weight:bold;line-height: 1.1;">
+<section class="page pt-0 pb-5 mx-lg-auto mx-2" style="min-height: 0vh !important;">
+    <h1 class="display-2" >
         Upgrade to <span class="text-pro">PRO</span>
     </h1>
-        <div class="mt-1">
-            <i class="fas fa-2x fa-star text-pro"></i>
-            <i class="fas fa-2x fa-star text-pro"></i>
-            <i class="fas fa-2x fa-star text-pro"></i>
-            <i class="fas fa-2x fa-star text-pro"></i>
-            <i class="fas fa-2x fa-star text-pro"></i>
-        </div>
+    <div class="mt-1">
+        <i class="fas fa-2x fa-star text-pro"></i>
+        <i class="fas fa-2x fa-star text-pro"></i>
+        <i class="fas fa-2x fa-star text-pro"></i>
+        <i class="fas fa-2x fa-star text-pro"></i>
+        <i class="fas fa-2x fa-star text-pro"></i>
+    </div>
+</section>
 
-    <h2 class="display-6 text-primary mt-5 border-top" style="font-weight:bold;line-height: 1.1;">
-        Send <span class="text-pro">unlimited</span> Bulk&nbsp;SMS</span>
+<section class="page mx-lg-auto mx-2">
+    <h2>
+        Send <span class="text-pro">unlimited</span> bulk&nbsp;SMS</span>
     </h2>
-    <div class="text-nowrap mb-5">
+    <div class="text-nowrap">
         <i style="color: #999" class="fas fa-4x fa-sms"></i>
         <i style="color: #999" class="fas fa-4x fa-sms"></i>
         <i style="color: #999" class="fas fa-4x fa-sms"></i>
     </div>
-    <h2 class="display-6 text-primary border-top" style="font-weight:bold;line-height: 1.1;">
-        <span class="text-pro">No&nbsp;</span>Bulk&nbsp;SMS <span class="text-pro">Signature</span></span>
+</section>
+
+
+
+<section class="page mx-lg-auto mx-2">
+    <h2>
+        <span class="text-pro">No&nbsp;</span>bulk&nbsp;SMS <span class="text-pro">signature</span></span>
     </h2>
 
-    <img class="img-fluid mb-5 mt-2 op-drop-shadow-light" src="/Images/smsnosig.png"  style="max-width: 320px; border: 1px solid #999; border-radius: 20px" />
-    <h2 class="display-6 text-primary border-top" style="font-weight:bold;line-height: 1.1;">
-        Unlimited contact <span class="text-pro">groups</span>
+    <img class="img-fluid mt-2" src="/Images/smsnosig.png"  style="max-width: 320px; border: 5px solid #ccc; border-radius: 20px" />
+</section>
+
+
+<section class="page mx-lg-auto mx-2">
+    <h2>
+        <span class="text-pro">Unlimited</span> contact groups
+    </h2>
+    <p>Organize your contact into groups for easy search and sending targeted Bulk SMS. In the free version you can only manage 7 groups. Upgrade to PRO for unlimited groups.</p>
+    <img class="img-fluid mt-2" src="/Images/groups.png"  style="max-width: 320px; border: 5px solid #ccc; border-radius: 20px" />
+</section>
+
+<section class="page mx-lg-auto mx-2">
+    <h2>
+        <span class="text-pro">Unlimited</span> auto reminders
+    </h2>
+
+    <img class="img-fluid mt-2" src="/Images/ob6.png"  style="max-width: 300px;" />
+</section>
+
+<section class="page mx-lg-auto mx-2">
+    <h2>
+        Unlimited Contact <span class="text-pro">Groups</span>
     </h2>
 
     <table class="my-5">
@@ -146,54 +187,9 @@
 </section>
 
 
-
-<section class="full-page border-top" style="background: #e5f6ff;position: relative ">
-    <div class="text-primary" style="position: absolute; bottom: 0; right: 0">
-        <span class="text-white px-4" style="background: #005580">*Patent pending</span>
-    </div>
-    <div class="h-100 container text-lg-start text-center d-flex flex-lg-row flex-column align-items-center">
-        <div class="mt-lg-0 mt-5 mb-lg-5 mb-0 mx-5 header-content d-flex flex-column align-items-lg-start align-items-center" style="overflow-x: hidden">
-
-            <h1 data-aos="fade-right" class="display-3 text-primary" style="font-weight:bolder;line-height: 1.1; border-bottom: 5px solid rgba(0, 0, 0, 0.1);">
-                <span class="text-accent">Patented*</span> &amp;
-                <span class="text-accent">FREE </span>
-                Bulk&nbsp;SMS method
-            </h1>
-
-
-            <h6 data-aos="fade-left" data-aos-delay="250"   class="display-6 text-secondary" style="font-weight:normal;">
-                Engage&nbsp;thousands. Zero&nbsp;Cost.
-            </h6>
-
-
-        </div>
-        <div class="w-100 d-flex justify-content-center align-items-center my-lg-0 my-4">
-            <div class="w-100 d-flex justify-content-center ">
-                <img data-aos="zoom-out" data-aos-delay="600" class="op-drop-shadow" src="/Images/ob2.png" style=" max-height: 600px; border-radius: 30px ">
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!--    <div class="mt-1">-->
-<!--        <i class="fas fa-2x fa-star" style="color: #d59451"></i>-->
-<!--        <i class="fas fa-2x fa-star" style="color: #d59451"></i>-->
-<!--        <i class="fas fa-2x fa-star" style="color: #d59451"></i>-->
-<!--        <i class="fas fa-2x fa-star" style="color: #d59451"></i>-->
-<!--        <i class="fas fa-2x fa-star" style="color: #d59451"></i>-->
-<!--    </div>-->
 </body>
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init({
-        duration: 750
-    });
-
-</script>
 <script src="https://kit.fontawesome.com/9b36b66950.js" crossorigin="anonymous"></script>
-<script src="/js/script.js"></script>
 </html>
 
 
