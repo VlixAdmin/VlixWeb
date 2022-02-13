@@ -63,9 +63,13 @@
     .text-pro {
         color:#9f8700
     }
+    .page-border {
+        margin-top: 4rem;
+        border-bottom: 2px solid #ddd !important;
+        align-self: stretch
+    }
     .page {
         min-height: 30vh;
-        border-bottom: 2px solid #ddd !important;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -73,8 +77,10 @@
         text-align: center;
         line-height: 1.1;
         color: #555555 !important;
-        padding: 3rem 0 3rem 0;
+        padding: 3rem 0 2rem 0;
         max-width: 800px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 
     h1,h2 {
@@ -121,23 +127,31 @@
     }
 </style>
 
-<section class="page py-5 mx-lg-auto mt-2" style="min-height: 0vh !important;">
+<section class="page py-5 mx-auto mt-2" style="min-height: 0vh !important;">
+    <img src="Images/rocket.png" style="width: 100px" />
     <h1 class="display-2" style="font-weight: bolder" >
         Upgrade to <span class="text-pro"><b>PRO</b></span>
     </h1>
+
+    <div class="mb-3">
+        <i class="fas fa-2x fa-star text-pro"></i>
+        <i class="fas fa-2x fa-star text-pro"></i>
+        <i class="fas fa-2x fa-star text-pro"></i>
+        <i class="fas fa-2x fa-star text-pro"></i>
+        <i class="fas fa-2x fa-star text-pro"></i>
+    </div>
+
     <div style="padding: 5px 0  ; align-self: stretch; background: #faeed1;  border-bottom: 2px solid #ddd !important;border-top: 2px solid #ddd !important;">
         <span style="font-weight: normal">
             Includes <span class="text-pro" style="font-weight: bold">7 days trial. </span>Cancel anytime
         </span>
     </div>
 
-    <div class="mt-2">
-        <i class="fas fa-2x fa-star text-pro"></i>
-        <i class="fas fa-2x fa-star text-pro"></i>
-        <i class="fas fa-2x fa-star text-pro"></i>
-        <i class="fas fa-2x fa-star text-pro"></i>
-        <i class="fas fa-2x fa-star text-pro"></i>
-    </div>
+    <h3 class="mt-2 blink text-pro">
+        <i class="fas fa-arrow-down"></i>
+        Scroll down
+        <i class="fas fa-arrow-down"></i>
+    </h3>
     <table class="mt-4 mb-1">
         <thead>
         <tr>
@@ -176,24 +190,15 @@
         </tr>
         </tbody>
     </table>
-
-    <h3 class="blink text-pro">
-        <i class="fas fa-arrow-down"></i>
-        Scroll down
-        <i class="fas fa-arrow-down"></i>
-    </h3>
+    <div class="page-border" />
 </section>
 
 
 
-<section class="page mx-lg-auto mx-2">
-    <h2>
-        <span class="text-pro">Save time</span> managing your business, club, community and etc
-    </h2>
-    <p>Rather than spending hours on a CRM, Vlix turns your existing Contacts into one. Managing contacts and groups can't get any simpler. Tap, swipe, done! You can even use templates to message faster.</p>
+<section class="page mx-auto">
     <div class="quote">
         <i class="fa fa-quote-left fa-2x align-self-start"></i>
-        <span>Vlix makes managing contacts &amp; groups so smooth and easy. I use Vlix all the time.</span>
+        <span>Vlix makes managing contacts &amp; groups so smooth and easy.</span>
         <div class="mt-2">
             <i class="fas fa-lg fa-star text-pro"></i>
             <i class="fas fa-lg fa-star text-pro"></i>
@@ -203,6 +208,12 @@
         </div>
         <i class="fa fa-quote-right fa-2x align-self-end"></i>
     </div>
+    <h2>
+        <span class="text-pro">Save time</span> managing your business, club, community and etc
+    </h2>
+    <p>Rather than spending hours on a CRM, Vlix turns your existing Contacts into one. Managing contacts and groups can't get any simpler. Tap, swipe, done! You can even use templates to message faster.</p>
+
+    <div class="page-border" />
 </section>
 
 
@@ -215,7 +226,7 @@
 
     <div class="quote">
         <i class="fa fa-quote-left fa-2x align-self-start"></i>
-        <span>I used to spend $200 sending 6000 bulk SMS every month. With Vlix it's just a few dollars a month. Totally worth it!</span>
+        <span>I used to spend $200 for bulk SMS every month. With Vlix it's just a few dollars only!</span>
         <div class="mt-2">
             <i class="fas fa-lg fa-star text-pro"></i>
             <i class="fas fa-lg fa-star text-pro"></i>
@@ -225,15 +236,26 @@
         </div>
         <i class="fa fa-quote-right fa-2x align-self-end"></i>
     </div>
-
+    <div class="page-border" />
 </section>
 
 
-<section class="page mx-lg-auto mx-2">
+<section class="page mx-auto">
+    <div class="quote">
+        <i class="fa fa-quote-left fa-2x align-self-start"></i>
+        <span>Whatsapp groups aren't effective anymore! SMS is king. Vlix Bulk SMS has helped 10x my response rates!</span>
+        <div class="mt-2">
+            <i class="fas fa-lg fa-star text-pro"></i>
+            <i class="fas fa-lg fa-star text-pro"></i>
+            <i class="fas fa-lg fa-star text-pro"></i>
+            <i class="fas fa-lg fa-star text-pro"></i>
+            <i class="fas fa-lg fa-star text-pro"></i>
+        </div>
+        <i class="fa fa-quote-right fa-2x align-self-end"></i>
+    </div>
     <h2>
         Send <span class="text-pro">unlimited</span> bulk&nbsp;SMS in <span class="text-pro"><b>PRO</b></span>
     </h2>
-
     <div class="text-nowrap">
         <i style="color: #999" class="fas fa-4x fa-sms"></i>
         <i style="color: #999" class="fas fa-4x fa-sms"></i>
@@ -241,43 +263,30 @@
     </div>
     <p>In free version, you are limited to 200 recipients per bulk SMS. You can compose as many bulk SMS you want but each bulk SMS can only have 200 recipients (Note: You can watch ads to temporarily increase this limit).
         Upgrade to PRO for unlimited recipients without Ads.</p>
-
-
-    <div class="quote">
-        <i class="fa fa-quote-left fa-2x align-self-start"></i>
-        <span>Whatsapp groups aren't effective anymore! SMS is always king. Vlix Bulk SMS has helped 10x my response rates!</span>
-        <div class="mt-2">
-            <i class="fas fa-lg fa-star text-pro"></i>
-            <i class="fas fa-lg fa-star text-pro"></i>
-            <i class="fas fa-lg fa-star text-pro"></i>
-            <i class="fas fa-lg fa-star text-pro"></i>
-            <i class="fas fa-lg fa-star text-pro"></i>
-        </div>
-        <i class="fa fa-quote-right fa-2x align-self-end"></i>
-    </div>
-
+    <div class="page-border" />
 </section>
 
 
-<section class="page mx-lg-auto mx-2">
+<section class="page mx-auto">
     <h2>
        No&nbsp;bulk&nbsp;SMS <span class="text-pro">signature / watermark</span> in <span class="text-pro"><b>PRO</b></span>
     </h2>
     <p>In free version, all SMS will be appended with a message 'Sent Using Vlix'. Upgrade to PRO to remove this signature/watermark.</p>
-
     <img class="img-fluid mt-2" src="/Images/smsnosig.png"  style="max-width: 320px; border: 5px solid #ccc; border-radius: 20px" />
+    <div class="page-border" />
 </section>
 
 
-<section class="page mx-lg-auto mx-2">
+<section class="page mx-auto">
     <h2>
         <span class="text-pro">Unlimited</span> contact&nbsp;groups in <span class="text-pro"><b>PRO</b></span>
     </h2>
     <p>Vlix allows you to group your contacts for easy searching and sending targeted bulk SMS. In free version you can only manage 7 groups. Other groups will be hidden. Upgrade to PRO for unlimited groups.</p>
     <img class="img-fluid mt-2" src="/Images/groups.png"  style="max-width: 320px; border: 5px solid #ccc; border-radius: 20px" />
+    <div class="page-border" />
 </section>
 
-<section class="page mx-lg-auto mx-2">
+<section class="page mx-auto">
     <h2>
         <span class="text-pro">Unlimited</span> auto reminders in <span class="text-pro"><b>PRO</b></span>
     </h2>
@@ -294,7 +303,7 @@
     </p>
     <div class="quote">
         <i class="fa fa-quote-left fa-2x align-self-start"></i>
-        <span>As a social worker, Vlix auto-reminders has greatly improved my productivity. It ensures that I'm always in touch with my clients. God bless you Vlix!</span>
+        <span>As a social worker, Vlix auto-reminders ensure I'm always in touch with my clients!</span>
         <div class="mt-2">
             <i class="fas fa-lg fa-star text-pro"></i>
             <i class="fas fa-lg fa-star text-pro"></i>
@@ -305,6 +314,7 @@
         <i class="fa fa-quote-right fa-2x align-self-end"></i>
     </div>
     <p style="color: Red"><b>You can only have 7 auto reminders in the FREE version.</b></p>
+    <div class="page-border" />
 </section>
 
 
