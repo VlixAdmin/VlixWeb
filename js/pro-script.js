@@ -3,7 +3,6 @@ window.addEventListener('load', function () {
     setTimeout(()=>{
         const el = document.getElementsByTagName("body")[0];
         el.style.opacity = "1";
-        console.log('loaded');
     },100);
 });
 
