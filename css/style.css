@@ -2,11 +2,9 @@
   background: #005580 !important;
 }
 
-
 hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 
 .overflow-x-hidden {
   overflow-x: hidden !important;
@@ -15,7 +13,6 @@ hr {
 .overflow-x-visible {
   overflow-x: visible !important;
 }
-
 
 @media (min-width:992px)  {
   .full-page {
@@ -52,12 +49,10 @@ hr {
   width: 100%;
 }
 
-
 section .quote:nth-child(odd)
 {
   background: #ffffe5;
 }
-
 
 .quote span {
   font-size: 1.25rem;
@@ -71,3 +66,4 @@ section .quote:nth-child(odd)
 .text-pro {
   color: #9f8700;
 }
+
