@@ -21,11 +21,9 @@ table {
 table td,th {
     border-right: 2px solid #999;
 }
-
 table td:first-child {
     border-left: 2px solid #999;
 }
-
 table tr:last-child {
     border-bottom: 2px solid #999;
 }
@@ -56,9 +54,15 @@ tr:nth-child(odd) {
 .text-pro {
     color:#9f8700
 }
+
+.page-border {
+    margin-top: 4rem;
+    border-bottom: 2px solid #ddd !important;
+    align-self: stretch
+}
+
 .page {
     min-height: 30vh;
-    border-bottom: 2px solid #ddd !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +70,7 @@ tr:nth-child(odd) {
     text-align: center;
     line-height: 1.1;
     color: #555555 !important;
-    padding: 3rem 0 3rem 0;
+    padding: 3rem 0.5rem 2rem 0.5rem;
     max-width: 800px;
 }
 
@@ -108,13 +112,7 @@ p {
 }
 
 @keyframes blinker {
-    from {
-        opacity: 1.0;
-    }
-    50% {
-        opacity: 0;
-    }
-    to {
-        opacity: 1.0;
-    }
+    from { opacity: 1.0; }
+    50% { opacity: 0; }
+    to { opacity: 1.0; }
 }
