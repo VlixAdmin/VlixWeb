@@ -23,4 +23,3 @@ jobs:
         source: "./*"
         target: "/var/www/html/vlixweb"
         overwrite: true
-        strip_components: 1  # removes the 'release' folder in the file names.
